@@ -4,7 +4,7 @@ const Botonera = () => {
       <li className="p-3">
         <a
           href="#vision"
-          className="text-decoration-none text-light btn btn-light rounded-circle border border-info border-3 mt-5"
+          className="text-decoration-none text-light btn btn-light rounded-circle border border-info border-3 mt-5 "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
