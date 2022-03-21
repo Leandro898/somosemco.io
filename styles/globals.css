@@ -15,10 +15,15 @@
     color: #0E3667;
 }
 
-#txt-color{
+#txt-color, #titulo{
     color: #0E3667;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: white !important;
 }
+
+.claro{
+    background-color: #F2FBFF;
+}
+

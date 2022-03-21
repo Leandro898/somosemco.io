@@ -5,7 +5,7 @@ import Tabs from "../components/Tabs";
 import Acordion from "../components/Acordion";
 import Grid from "../components/IconGrid";
 import NavText from "../components/NavText";
-// import Styles from '../styles/acercade.module.css';
+import FooterP from "../components/Footer";
 
 
 const Acercade = () => {
@@ -18,18 +18,12 @@ const Acercade = () => {
           </div>
           <div class="row col-9">
             <h3 className="text-center h1 display-3 text-light fw-bolder" id="m">VISIÓN</h3>
-            {/* <p className="text-light text-center">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-              magnam reiciendis, quod exercitationem commodi dolorum at quidem
-              repellat laudantium fugit, molestias autem! Odit ex vitae eligendi
-              similique illum! Perferendis, soluta?
-            </p> */}
             <Tabs/>
           </div>
         </div>
       </div>
       <section class="" id="mision">
-        <div className="container-fluid mision">
+        <div className="container-fluid mision claro">
           <div class="row">
             <div class="col-3">
               <Botonera />
@@ -42,32 +36,32 @@ const Acercade = () => {
         </div>
       </section>
       <section class="" id="valores">
-        <div className="container-fluid fondo">
+        <div className="container-fluid">
           <div class="row">
             <div class="col-3">
               <Botonera />
             </div>
             <div class="col-9">
-              <h3 className="text-center">VALORES</h3>
-              <p class="text-center">texto</p>
+            <h3 className="text-center h1 display-3 fw-bolder mt-5" id="titulo">VALORES</h3>
               <Grid/>
             </div>
           </div>
         </div>
       </section>
       <section class="" id="filosofia">
-        <div className="container-fluid mision">
+        <div className="container-fluid mision fondo">
           <div class="row">
             <div class="col-3">
               <Botonera />
             </div>
             <div class="col-9 ">
-              <h3 className="text-center">FILOSOFÍA</h3>
+              <h3 className="text-center h1 display-3 fw-bolder mt-5 text-light">FILOSOFÍA</h3>
               <NavText/>
             </div>
           </div>
         </div>
       </section>
+      <FooterP className="bg-dark p-0 m-0"/>
     </Container>
   );
 };
