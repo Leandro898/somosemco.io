@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import Navigation from "../components/navigation";
 import Botonera from "../components/Botonera";
-
 import Tabs from "../components/Tabs";
 import Acordion from "../components/Acordion";
 import Grid from "../components/IconGrid";
@@ -36,7 +35,7 @@ const Acercade = () => {
               <Botonera />
             </div>
             <div class="col-9 ">
-              <h3 className="text-center">MISIÓN</h3>
+              <p className="text-center">MISIÓN</p>
               <Acordion/>
             </div>
           </div>
