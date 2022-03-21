@@ -18,3 +18,7 @@
 #txt-color{
     color: #0E3667;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white !important;
+}

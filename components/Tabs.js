@@ -49,7 +49,7 @@ const Tabs = () => {
         {/* BOTONES PARA SELECCIONAR TEXTO */}
 
         <div class="container d-flex justify-content-center">
-          <ul class="nav nav-pills mt-5" id="pills-tab" role="tablist">
+          <ul class="nav nav-pills m-5" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
                 class="nav-link active"
@@ -61,7 +61,7 @@ const Tabs = () => {
                 aria-controls="pills-home"
                 aria-selected="true"
               >
-                COMUNIDAD
+                <p className='text-dark m-0 fw-bold'>COMUNIDAD</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -75,7 +75,7 @@ const Tabs = () => {
                 aria-controls="pills-profile"
                 aria-selected="false"
               >
-                CAPITALIZACIÓN
+                <p className='text-dark m-0 fw-bold'>CAPITALIZACIÓN</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -89,7 +89,7 @@ const Tabs = () => {
                 aria-controls="pills-contact"
                 aria-selected="false"
               >
-                HERRAMIENTAS
+                <p className='text-dark m-0 fw-bold' id='txt-color'>HERRAMIENTAS</p>
               </button>
             </li>
           </ul>
