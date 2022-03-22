@@ -28,7 +28,7 @@ const Acercade = () => {
             <div class="col-3">
               <Botonera />
             </div>
-            <div class="col-9">
+            <div class="col-6">
               <h3 className="text-center h1 display-3 fw-bolder mt-5" id="txt-color">MISIÓN</h3>
               <Acordion/>
             </div>

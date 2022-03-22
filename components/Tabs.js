@@ -61,7 +61,7 @@ const Tabs = () => {
                 aria-controls="pills-home"
                 aria-selected="true"
               >
-                <p className='text-dark m-0 fw-bold'>COMUNIDAD</p>
+                <p className='text-light m-0 fw-bold'>COMUNIDAD</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -75,7 +75,7 @@ const Tabs = () => {
                 aria-controls="pills-profile"
                 aria-selected="false"
               >
-                <p className='text-dark m-0 fw-bold'>CAPITALIZACIÓN</p>
+                <p className='text-light m-0 fw-bold'>CAPITALIZACIÓN</p>
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -89,7 +89,7 @@ const Tabs = () => {
                 aria-controls="pills-contact"
                 aria-selected="false"
               >
-                <p className='text-dark m-0 fw-bold' id='txt-color'>HERRAMIENTAS</p>
+                <p className='text-light m-0 fw-bold' id='c'>HERRAMIENTAS</p>
               </button>
             </li>
           </ul>

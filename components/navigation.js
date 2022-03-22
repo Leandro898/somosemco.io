@@ -4,11 +4,11 @@ const Navigation = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-light fondo"
+        className="navbar navbar-expand-lg navbar-light fondo " id="mynav"
       >
         <div className="container-fluid">
           <Link href="/">
-            <a className="navbar-brand">
+            <a className="navbar-brand ">
               <img src="/images/logo.png" width="150px" height="50px"></img>
             </a>
           </Link>
@@ -28,10 +28,10 @@ const Navigation = () => {
             id="navbarNav"
           >
             <ul className="nav nav-pills" id="pills-tab" role="tablist">
-              <li className="nav-item" role="presentation">
+              <li className="nav-item" id="active" role="presentation">
                 <Link href="/">
                   <a
-                    className="nav-link text-light"
+                    className="nav-link text-light fw-bold fw-bold"
                     data-toggle="pill"
 
                   >
@@ -41,22 +41,22 @@ const Navigation = () => {
               </li>
               <li className="nav-item">
                 <Link href="/acercade">
-                  <a className="nav-link text-light" data-toggle="pill" >Acerca de</a>
+                  <a className="nav-link text-light fw-bold" data-toggle="pill" >Acerca de</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/team">
-                  <a className="nav-link text-light">Team Emco</a>
+                  <a className="nav-link text-light fw-bold">Team Emco</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/paper">
-                  <a className="nav-link text-light">White Paper</a>
+                  <a className="nav-link text-light fw-bold">White Paper</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/enlaces">
-                  <a className="nav-link text-light">Enlaces</a>
+                  <a className="nav-link text-light fw-bold">Enlaces</a>
                 </Link>
               </li>
             </ul>

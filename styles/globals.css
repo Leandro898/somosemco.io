@@ -19,11 +19,43 @@
     color: #0E3667;
 }
 
+#txt-color:active{
+    color:red;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: white !important;
 }
 
 .claro{
     background-color: #F2FBFF;
+}
+
+#mynav a{
+    border-bottom: 2px solid transparent;
+    border-radius:  0px;
+}
+
+#mynav a:hover{
+    border-bottom: 2px solid #00E2D4;
+    
+}
+
+#active a:hover{
+    border-bottom: 2px solid #00E2D4;
+}
+
+#buton-vision{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#buton-mision{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#txt-activo {
+    color: #0E3667;
 }
 

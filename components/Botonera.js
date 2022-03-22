@@ -5,11 +5,12 @@ const Botonera = () => {
         <a
           href="#vision"
           className="text-decoration-none text-light btn btn-light rounded-circle border border-info border-3 mt-5 "
+          id="buton-vision"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="45"
+            width="35"
+            height="35"
             fill="#0ccdd0"
             class="bi bi-eye"
             viewBox="0 0 16 16"
@@ -24,11 +25,12 @@ const Botonera = () => {
         <a
           href="#mision"
           className="text-decoration-none text-light btn btn-light rounded-circle border border-info border-3"
+          id="buton-mision"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="45"
+            width="25"
+            height="35"
             fill="#0ccdd0"
             class="bi bi-flag"
             viewBox="0 0 16 16"
@@ -46,8 +48,8 @@ const Botonera = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="45"
+            width="25"
+            height="35"
             fill="#0ccdd0"
             class="bi bi-heart"
             viewBox="0 0 16 16"
@@ -64,8 +66,8 @@ const Botonera = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="45"
+            width="25"
+            height="35"
             fill="#0ccdd0"
             class="bi bi-archive"
             viewBox="0 0 16 16"
