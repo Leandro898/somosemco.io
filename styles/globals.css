@@ -2,6 +2,14 @@
     background-color: #0E3667;
 }
 
+.fondo-claro{
+    background-color: #f2fbff;
+}
+
+.footer{
+    height: 120px;
+}
+
 #m{
     margin-top:80px;
     color:red;
@@ -24,7 +32,7 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: white !important;
+    background-color: #1FCEF1 !important;
 }
 
 .claro{

@@ -7,7 +7,6 @@ import Grid from "../components/IconGrid";
 import NavText from "../components/NavText";
 import FooterP from "../components/Footer";
 
-
 const Acercade = () => {
   return (
     <Container>
@@ -17,8 +16,13 @@ const Acercade = () => {
             <Botonera />
           </div>
           <div class="row col-9">
-            <h3 className="text-center h1 display-3 text-light fw-bolder" id="m">VISIÓN</h3>
-            <Tabs/>
+            <h3
+              className="text-center h1 display-3 text-light fw-bolder"
+              id="m"
+            >
+              VISIÓN
+            </h3>
+            <Tabs />
           </div>
         </div>
       </div>
@@ -28,9 +32,19 @@ const Acercade = () => {
             <div class="col-3">
               <Botonera />
             </div>
-            <div class="col-6">
-              <h3 className="text-center h1 display-3 fw-bolder mt-5" id="txt-color">MISIÓN</h3>
-              <Acordion/>
+            <div class="col-9">
+              <h3
+                className="text-center h1 display-3 fw-bolder mt-5"
+                id="txt-color"
+              >
+                MISIÓN
+              </h3>
+              <div className="row">
+                <Acordion />
+              </div>
+              <div className="">
+                <img src="/images/mujer-sentada.svg" className="" />
+              </div>
             </div>
           </div>
         </div>
@@ -42,8 +56,13 @@ const Acercade = () => {
               <Botonera />
             </div>
             <div class="col-9">
-            <h3 className="text-center h1 display-3 fw-bolder mt-5" id="titulo">VALORES</h3>
-              <Grid/>
+              <h3
+                className="text-center h1 display-3 fw-bolder mt-5"
+                id="titulo"
+              >
+                VALORES
+              </h3>
+              <Grid />
             </div>
           </div>
         </div>
@@ -55,13 +74,15 @@ const Acercade = () => {
               <Botonera />
             </div>
             <div class="col-9 ">
-              <h3 className="text-center h1 display-3 fw-bolder mt-5 text-light">FILOSOFÍA</h3>
-              <NavText/>
+              <h3 className="text-center h1 display-3 fw-bolder mt-5 text-light">
+                FILOSOFÍA
+              </h3>
+              <NavText />
             </div>
           </div>
         </div>
       </section>
-      <FooterP className="bg-dark p-0 m-0"/>
+      <FooterP className="bg-dark" />
     </Container>
   );
 };
