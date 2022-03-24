@@ -1,11 +1,11 @@
 const Acordion = () => {
   return (
     <div className="mt-5 col-5 ms-auto me-md-5">
-      <div class="accordion " id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+      <div className="accordion " id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingOne">
             <button
-              class="accordion-button"
+              className="accordion-button"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
@@ -17,20 +17,20 @@ const Acordion = () => {
           </h2>
           <div
             id="collapseOne"
-            class="accordion-collapse collapse show"
+            className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               Crear y alfabetizar una comunidad de empoderamiento criptográfico
               colectivo.
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
@@ -42,11 +42,11 @@ const Acordion = () => {
           </h2>
           <div
             id="collapseTwo"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               Brindar conocimiento, formación y actualización por medio de las
               instancias de creación y divulgación de contenidos creadas para
               tal fin: Academia EMCO (capacitaciones on line), y EMCO Report
@@ -54,10 +54,10 @@ const Acordion = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
@@ -69,11 +69,11 @@ const Acordion = () => {
           </h2>
           <div
             id="collapseThree"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <p>
                 Brindar soluciones a esa comunidad, de tal manera que permitan
                 su empoderamiento colectivo frente al contexto económico
@@ -86,10 +86,10 @@ const Acordion = () => {
           </div>
         </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFour">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFour"
@@ -101,11 +101,11 @@ const Acordion = () => {
           </h2>
           <div
             id="collapseFour"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <p>
                 Crear una criptomoneda amigable y accesible atada a un valor
                 -por medio de contratos inteligentes (smart contracts)- que en
@@ -117,10 +117,10 @@ const Acordion = () => {
           </div>
         </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFive">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFive"
@@ -132,11 +132,11 @@ const Acordion = () => {
           </h2>
           <div
             id="collapseFive"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
             aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <p>
                 Ofrecemos como solución una plataforma que nos permitirá generar
                 valor, autoempleo y así cubrir nuestras necesidades básicas sin

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 const Navigation = () => {
   return (
@@ -9,7 +10,7 @@ const Navigation = () => {
         <div className="container-fluid">
           <Link href="/">
             <a className="navbar-brand ">
-              <img src="/images/logo.png" width="150px" height="50px"></img>
+              <Image src="/images/logo.png" alt="image" width="150px" height="50px" />
             </a>
           </Link>
           <button

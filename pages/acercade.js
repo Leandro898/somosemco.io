@@ -7,16 +7,17 @@ import Grid from "../components/IconGrid";
 import NavText from "../components/NavText";
 import FooterP from "../components/Footer";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Acercade = () => {
   return (
     <Container>
-      <div class="container-fluid fondo" id="vision">
-        <div class="row">
-          <div class="col-3">
+      <div className="container-fluid fondo" id="vision">
+        <div className="row">
+          <div className="col-3">
             <Botonera className="bg-dark" />
           </div>
-          <div class="row col-9">
+          <div className="row col-9">
             <motion.div
               initial="hidden"
               animate="visible"
@@ -46,13 +47,13 @@ const Acercade = () => {
           </div>
         </div>
       </div>
-      <section class="" id="mision">
+      <section className="" id="mision">
         <div className="container-fluid mision claro">
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Botonera />
             </div>
-            <div class="col-9">
+            <div className="col-9">
               <h3
                 className="text-center h1 display-3 fw-bolder mt-5"
                 id="txt-color"
@@ -60,28 +61,29 @@ const Acercade = () => {
                 MISIÓN
               </h3>
               <div className="row mt-5">
-                <img
+                <Image
                   src="/images/mujer-sentada.svg"
                   width="300"
+                  alt="image"
                   height="250"
                   className="col-4 justify-content-start"
-                  style={{marginTop:'100px'}}
+                  style={{ marginTop: "100px" }}
                 />
                 <Acordion />
-                { /* El siguiente div es un espaciador solamente */}
-                <div style={{height:'200px'}}></div>
+                {/* El siguiente div es un espaciador solamente */}
+                <div style={{ height: "200px" }}></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="" id="valores">
+      <section className="" id="valores">
         <div className="container-fluid">
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Botonera />
             </div>
-            <div class="col-9">
+            <div className="col-9">
               <h3
                 className="text-center h1 display-3 fw-bolder mt-5"
                 id="titulo"
@@ -89,19 +91,19 @@ const Acercade = () => {
                 VALORES
               </h3>
               <Grid />
-              { /* El siguiente div es un espaciador solamente */}
-                <div style={{height:'200px'}}></div>
+              {/* El siguiente div es un espaciador solamente */}
+              <div style={{ height: "200px" }}></div>
             </div>
           </div>
         </div>
       </section>
-      <section class="" id="filosofia">
+      <section className="" id="filosofia">
         <div className="container-fluid mision fondo">
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Botonera />
             </div>
-            <div class="col-9 ">
+            <div className="col-9 ">
               <h3 className="text-center h1 display-3 fw-bolder mt-5 text-light">
                 FILOSOFÍA
               </h3>

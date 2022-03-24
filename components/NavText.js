@@ -4,7 +4,7 @@ const NavText = () => {
       <p className="text-light fs-5 fw-normal">
         {" "}
         La Sociedad en formación Ecodempo SRL. y su Ecosistema de Empoderamiento Colectivo nacen de la decisión de brindar <a
-          class="text-info"
+          className="text-info"
           data-bs-toggle="collapse"
           href="#collapseExample"
           role="button"
@@ -13,7 +13,7 @@ const NavText = () => {
         >
           SOLUCIONES
         </a> a la <a
-          class="text-success"
+          className="text-success"
           data-bs-toggle="collapse"
           href="#collapseExampleTwo"
           role="button"
@@ -22,7 +22,7 @@ const NavText = () => {
         >
           COMUNIDAD
         </a> argentina en su <a
-          class="text-danger"
+          className="text-danger"
           data-bs-toggle="collapse"
           href="#collapseExampleThree"
           role="button"
@@ -35,14 +35,14 @@ const NavText = () => {
 
       {/* Comienza la parte de los mensajes que se muestran cuando se hace click en una palabra */}
 
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+      <div className="collapse" id="collapseExample">
+        <div className="card card-body">
         SOLUCIONES que se materializan plataformas de códigos abiertos que irán incorporando propuestas de manera gradual, comenzando por un espacio de intercambio de bienes y servicios.
         </div>
           
           .
         
-        {/* <div class="card card-body" id="x">
+        {/* <div className="card card-body" id="x">
           otro texto que tenga otro{" "}
           <a
             href=""
@@ -54,19 +54,19 @@ const NavText = () => {
             enlace
           </a>
         </div> */}
-        {/* <div class="card card-body" id="y">
+        {/* <div className="card card-body" id="y">
           3 er texto
         </div>
-        <div class="card card-body" id="z">
+        <div className="card card-body" id="z">
           4 to texto
         </div> */}
       </div>
-      <div class="collapse" id="collapseExampleTwo">
+      <div className="collapse" id="collapseExampleTwo">
         <p className="text-light">La creación de COMUNIDADES de Intercambio Geográficas es una meta crucial en el desarrollo del Ecosistema, para la cual se crea e implementa una política activa de formación y alfabetización para  potenciales usuarios.</p>
       </div>
-      <div class="collapse" id="collapseExampleThree">
+      <div className="collapse" id="collapseExampleThree">
         <p className="text-light">ENMARCADOS EN UN CONTEXTO MUNDIAL pandémico y haciendo una proyección de las secuelas que el mismo provocará en la escena  mundial y en la Argentina en particular; el Ecosistema de Empoderamiento Colectivo ofrece una <a
-          class="text-danger"
+          className="text-danger"
           data-bs-toggle="collapse"
           href="#collapseExampleFour"
           role="button"
