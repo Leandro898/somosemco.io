@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image'
 
-const Navigation = () => {
+const navigation = () => {
   return (
     <div>
       <nav
@@ -68,4 +68,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default navigation;
