@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="">
       <nav
         className="navbar navbar-expand-lg navbar-light bg-transparent" id="mynav"
       >

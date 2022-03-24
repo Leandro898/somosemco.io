@@ -1,6 +1,6 @@
 const Carrusel = () => {
   return (
-    <div>
+    <div className="">
       <div
         id="carouselExampleInterval"
         className="carousel slide"
