@@ -1,4 +1,4 @@
-import Navigation from "../components/navigation";
+import Navigation from "../components/Navigation";
 import Container from "../components/Container";
 import Carrusel from "../components/Carrusel";
 import FooterP from "../components/Footer";
@@ -9,7 +9,7 @@ const Index = () => {
       <Container>
         <Carrusel />
       </Container>
-      <FooterP />
+      <FooterP className="bg-dark" />
     </di>
   );
 };

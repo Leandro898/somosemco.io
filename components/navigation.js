@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-light fondo " id="mynav"
+        className="navbar navbar-expand-lg navbar-light bg-transparent" id="mynav"
       >
         <div className="container-fluid">
           <Link href="/">

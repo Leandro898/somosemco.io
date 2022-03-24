@@ -1,11 +1,12 @@
 import Container from "../components/Container";
-import Navigation from "../components/navigation";
+import Navigation from "../components/Navigation";
 import Botonera from "../components/Botonera";
 import Tabs from "../components/Tabs";
 import Acordion from "../components/Acordion";
 import Grid from "../components/IconGrid";
 import NavText from "../components/NavText";
 import FooterP from "../components/Footer";
+import { motion } from "framer-motion";
 
 const Acercade = () => {
   return (
@@ -13,15 +14,34 @@ const Acercade = () => {
       <div class="container-fluid fondo" id="vision">
         <div class="row">
           <div class="col-3">
-            <Botonera />
+            <Botonera className="bg-dark" />
           </div>
           <div class="row col-9">
-            <h3
-              className="text-center h1 display-3 text-light fw-bolder"
-              id="m"
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  scale: 0.8,
+                  opacity: 0,
+                },
+                visible: {
+                  scale: 1,
+                  opacity: 1,
+                  transition: {
+                    delay: 0.1,
+                  },
+                },
+              }}
             >
-              VISIÓN
-            </h3>
+              <h3
+                className="text-center h1 display-3 text-light fw-bolder"
+                id="m"
+              >
+                VISIÓN
+              </h3>
+            </motion.div>
+
             <Tabs />
           </div>
         </div>
@@ -39,11 +59,17 @@ const Acercade = () => {
               >
                 MISIÓN
               </h3>
-              <div className="row">
+              <div className="row mt-5">
+                <img
+                  src="/images/mujer-sentada.svg"
+                  width="300"
+                  height="250"
+                  className="col-4 justify-content-start"
+                  style={{marginTop:'100px'}}
+                />
                 <Acordion />
-              </div>
-              <div className="">
-                <img src="/images/mujer-sentada.svg" className="" />
+                { /* El siguiente div es un espaciador solamente */}
+                <div style={{height:'200px'}}></div>
               </div>
             </div>
           </div>
@@ -63,6 +89,8 @@ const Acercade = () => {
                 VALORES
               </h3>
               <Grid />
+              { /* El siguiente div es un espaciador solamente */}
+                <div style={{height:'200px'}}></div>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@
 }
 
 #m{
-    margin-top:80px;
+    margin-top:120px;
     color:red;
 }
 
@@ -37,6 +37,12 @@
 
 .claro{
     background-color: #F2FBFF;
+}
+
+#mynav{
+    color:red;
+    margin-bottom: -92px;
+    z-index: 999;
 }
 
 #mynav a{
@@ -67,3 +73,6 @@
     color: #0E3667;
 }
 
+#arriba{
+    background-color: red;
+}

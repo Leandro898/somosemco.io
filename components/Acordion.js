@@ -1,7 +1,7 @@
 const Acordion = () => {
   return (
-    <div className="mt-5 col-6 ms-auto me-md-5">
-      <div class="accordion fondo-claro" id="accordionExample">
+    <div className="mt-5 col-5 ms-auto me-md-5">
+      <div class="accordion " id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button
