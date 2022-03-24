@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import Navigation from "../components/Navigation";
+import navigation from "../components/navigation";
 import Botonera from "../components/Botonera";
 import Tabs from "../components/Tabs";
 import Acordion from "../components/Acordion";
