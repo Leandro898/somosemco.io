@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navigation from "./Navigation";
+import navigation from "./navigation";
 
 const Container = (props) => {
   return (
