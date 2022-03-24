@@ -7,7 +7,7 @@ const Container = (props) => {
       <Head>
         <title>Somos Emco</title>
       </Head>
-      <Navigation />
+      <navigation />
       <div>{props.children}</div>
     </div>
   );
