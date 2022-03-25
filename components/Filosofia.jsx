@@ -2,7 +2,8 @@ const Filo = () => {
     return (
         <a
           href="#filosofia"
-          className="text-decoration-none text-light btn btn-light rounded-circle border border-info border-3"
+          className="text-light btn btn-light rounded-circle border border-info border-3"
+          
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

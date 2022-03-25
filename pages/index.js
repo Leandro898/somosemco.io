@@ -1,4 +1,4 @@
-// import navigation from "../components/navigation";
+import Navigation from "../components/NavBar";
 import Container from "../components/Container";
 import Carrusel from "../components/Carrusel";
 import FooterP from "../components/Footer";

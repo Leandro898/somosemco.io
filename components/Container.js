@@ -1,5 +1,5 @@
 import Head from "next/head";
-import navigation from "./navigation";
+import Navigation from "./NavBar";
 
 const Container = (props) => {
   return (
@@ -7,7 +7,7 @@ const Container = (props) => {
       <Head>
         <title>Somos Emco</title>
       </Head>
-      <navigation />
+      <Navigation/>
       <div>{props.children}</div>
     </div>
   );

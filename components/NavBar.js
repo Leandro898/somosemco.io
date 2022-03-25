@@ -1,18 +1,15 @@
 import Link from "next/link";
-import Image from 'next/image'
+//import Image from 'next/image'
+import Logo from './Logo'
 
-const navigation = () => {
+const Navigation = () => {
   return (
     <div>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-transparent" id="mynav"
       >
         <div className="container-fluid">
-          <Link href="/">
-            <a className="navbar-brand ">
-              <Image src="/images/logo.png" alt="image" width="150px" height="50px" />
-            </a>
-          </Link>
+          <Logo />
           <button
             className="navbar-toggler"
             type="button"
@@ -34,7 +31,7 @@ const navigation = () => {
                   <a
                     className="nav-link text-light fw-bold fw-bold"
                     data-toggle="pill"
-
+                    id="enlaces"
                   >
                     Home
                   </a>
@@ -42,22 +39,22 @@ const navigation = () => {
               </li>
               <li className="nav-item">
                 <Link href="/acercade">
-                  <a className="nav-link text-light fw-bold" data-toggle="pill" >Acerca de</a>
+                  <a className="nav-link text-light fw-bold" data-toggle="pill" id="enlaces">Acerca de</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/team">
-                  <a className="nav-link text-light fw-bold">Team Emco</a>
+                  <a className="nav-link text-light fw-bold" id="enlaces">Team Emco</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/paper">
-                  <a className="nav-link text-light fw-bold">White Paper</a>
+                  <a className="nav-link text-light fw-bold" id="enlaces">White Paper</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/enlaces">
-                  <a className="nav-link text-light fw-bold">Enlaces</a>
+                  <a className="nav-link text-light fw-bold" id="enlaces">Enlaces</a>
                 </Link>
               </li>
             </ul>
@@ -68,4 +65,4 @@ const navigation = () => {
   );
 };
 
-export default navigation;
+export default Navigation;

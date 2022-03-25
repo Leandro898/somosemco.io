@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import navigation from "../components/navigation";
+import Navigation from "../components/NavBar";
 import Botonera from "../components/Botonera";
 import Tabs from "../components/Tabs";
 import Acordion from "../components/Acordion";
@@ -62,10 +62,10 @@ const Acercade = () => {
               </h3>
               <div className="row mt-5">
                 <img
-                  src="/images/mujer-sentada.svg"
-                  width="300"
+                  src="/images/mujer.svg"
+                  width="200"
                   alt="image"
-                  height="250"
+                  height="280"
                   className="col-4 justify-content-start"
                   style={{ marginTop: "100px" }}
                 />

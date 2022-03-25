@@ -45,7 +45,16 @@
     z-index: 999;
 }
 
-#mynav a{
+#enlaces{
+    border-bottom: 2px solid transparent;
+    border-radius:  0px;
+}
+
+#enlaces:hover{
+    border-bottom: 2px solid #00E2D4;
+}
+
+/* #mynav a{
     border-bottom: 2px solid transparent;
     border-radius:  0px;
 }
@@ -53,11 +62,11 @@
 #mynav a:hover{
     border-bottom: 2px solid #00E2D4;
     
-}
+} */
 
-#active a:hover{
+/* #active a:hover{
     border-bottom: 2px solid #00E2D4;
-}
+} */
 
 #buton-vision{
     padding-left: 18px;
@@ -75,4 +84,8 @@
 
 #arriba{
     background-color: red;
+}
+
+a #decoration-none:hover{
+    border-bottom: 2px solid white;
 }

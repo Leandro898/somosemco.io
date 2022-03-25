@@ -4,7 +4,7 @@ const NavText = () => {
       <p className="text-light fs-5 fw-normal">
         {" "}
         La Sociedad en formación Ecodempo SRL. y su Ecosistema de Empoderamiento Colectivo nacen de la decisión de brindar <a
-          className="text-info"
+          className="text-info text-decoration-none"
           data-bs-toggle="collapse"
           href="#collapseExample"
           role="button"
@@ -13,7 +13,7 @@ const NavText = () => {
         >
           SOLUCIONES
         </a> a la <a
-          className="text-success"
+          className="text-success text-decoration-none"
           data-bs-toggle="collapse"
           href="#collapseExampleTwo"
           role="button"
@@ -22,7 +22,7 @@ const NavText = () => {
         >
           COMUNIDAD
         </a> argentina en su <a
-          className="text-danger"
+          className="text-danger text-decoration-none"
           data-bs-toggle="collapse"
           href="#collapseExampleThree"
           role="button"
@@ -66,7 +66,7 @@ const NavText = () => {
       </div>
       <div className="collapse" id="collapseExampleThree">
         <p className="text-light">ENMARCADOS EN UN CONTEXTO MUNDIAL pandémico y haciendo una proyección de las secuelas que el mismo provocará en la escena  mundial y en la Argentina en particular; el Ecosistema de Empoderamiento Colectivo ofrece una <a
-          className="text-danger"
+          className="text-danger text-decoration-none"
           data-bs-toggle="collapse"
           href="#collapseExampleFour"
           role="button"

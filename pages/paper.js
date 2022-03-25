@@ -1,10 +1,14 @@
-import Navigation from '../components/navigation';
+import Navigation from '../components/NavBar';
 import Container from '../components/Container';
+import FooterP from "../components/Footer";
 
 const Paper = () => {
     return (
         <Container>
-            <h1>White Paper</h1>
+            <div className='fondo' style={{height:'500px'}}>
+                
+                </div>
+                <FooterP className="bg-dark" />
         </Container>
     )
 }
