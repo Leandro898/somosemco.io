@@ -7,7 +7,7 @@ import Grid from "../components/IconGrid";
 import NavText from "../components/NavText";
 import FooterP from "../components/Footer";
 import { motion } from "framer-motion";
-import Image from "next/image";
+//import Image from "next/image";
 
 const Acercade = () => {
   return (
@@ -61,7 +61,7 @@ const Acercade = () => {
                 MISIÓN
               </h3>
               <div className="row mt-5">
-                <Image
+                <img
                   src="/images/mujer-sentada.svg"
                   width="300"
                   alt="image"
