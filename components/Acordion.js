@@ -12,7 +12,7 @@ const Acordion = () => {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              COMUNIDAD
+              <p className="m-0 fw-bold" style={{color: '#0E3667'}}>COMUNIDAD</p>
             </button>
           </h2>
           <div
@@ -21,7 +21,7 @@ const Acordion = () => {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body fw-bold">
               Crear y alfabetizar una comunidad de empoderamiento criptográfico
               colectivo.
             </div>
@@ -37,7 +37,7 @@ const Acordion = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              FORMACIÓN
+              <p className="m-0 fw-bold" style={{color: '#0E3667'}}>FORMACIÓN</p>
             </button>
           </h2>
           <div
@@ -46,7 +46,7 @@ const Acordion = () => {
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body fw-bold">
               Brindar conocimiento, formación y actualización por medio de las
               instancias de creación y divulgación de contenidos creadas para
               tal fin: Academia EMCO (capacitaciones on line), y EMCO Report
@@ -64,7 +64,7 @@ const Acordion = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              SOLUCIONES
+              <p className="m-0 fw-bold" style={{color: '#0E3667'}}>SOLUCIONES</p>
             </button>
           </h2>
           <div
@@ -73,7 +73,7 @@ const Acordion = () => {
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body fw-bold">
               <p>
                 Brindar soluciones a esa comunidad, de tal manera que permitan
                 su empoderamiento colectivo frente al contexto económico
@@ -96,7 +96,7 @@ const Acordion = () => {
               aria-expanded="false"
               aria-controls="collapseFour"
             >
-              SEGURIDAD
+              <p className="m-0 fw-bold" style={{color: '#0E3667'}}>SEGURIDAD</p>
             </button>
           </h2>
           <div
@@ -105,7 +105,7 @@ const Acordion = () => {
             aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body fw-bold">
               <p>
                 Crear una criptomoneda amigable y accesible atada a un valor
                 -por medio de contratos inteligentes (smart contracts)- que en
@@ -127,7 +127,7 @@ const Acordion = () => {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              FUTURO
+              <p className="m-0 fw-bold" style={{color: '#0E3667'}}>FUTURO</p>
             </button>
           </h2>
           <div
@@ -136,7 +136,7 @@ const Acordion = () => {
             aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body fw-bold">
               <p>
                 Ofrecemos como solución una plataforma que nos permitirá generar
                 valor, autoempleo y así cubrir nuestras necesidades básicas sin

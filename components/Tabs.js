@@ -12,10 +12,10 @@ const Tabs = () => {
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-            <p className="text-light fs-5 text-center mx-5">
+            <p className="px-5 text-light fw-bold mx-5 family">
               Somos la comunidad que entiende y socializa la herramienta de
               empoderamiento que nace de la fusión de la economía del
-              conocimiento, la economía digital y<br /> la economía solidaria.
+              conocimiento, la economía digital y la economía solidaria.
             </p>
           </div>
           <div
@@ -24,7 +24,7 @@ const Tabs = () => {
             role="tabpanel"
             aria-labelledby="pills-profile-tab"
           >
-            <p className="text-light fs-5 text-center mx-5">
+            <p className="px-5 text-light fw-bold mx-5 family">
               Estamos convencidos de la fuerza empoderadora de la tecnología
               blockchain y del lenguaje criptográfico como una herramienta de
               fácil acceso con beneficios para el empoderamiento colectivo de
@@ -37,7 +37,7 @@ const Tabs = () => {
             role="tabpanel"
             aria-labelledby="pills-contact-tab"
           >
-            <p className="text-light fs-5 text-center mx-5">
+            <p className="px-5 text-light fw-bold family">
               En la combinación de las herramientas digitales y la participación
               social podremos encontrar beneficios que nos permitirán contar con
               otras opciones para contrarrestar los efectos negativos económicos

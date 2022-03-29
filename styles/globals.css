@@ -54,19 +54,11 @@
     border-bottom: 2px solid #00E2D4;
 }
 
-/* #mynav a{
-    border-bottom: 2px solid transparent;
-    border-radius:  0px;
+.family{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
 }
-
-#mynav a:hover{
-    border-bottom: 2px solid #00E2D4;
-    
-} */
-
-/* #active a:hover{
-    border-bottom: 2px solid #00E2D4;
-} */
 
 #buton-vision{
     padding-left: 18px;
