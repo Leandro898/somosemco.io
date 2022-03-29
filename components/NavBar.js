@@ -54,7 +54,12 @@ const Navigation = () => {
               </li>
               <li className="nav-item">
                 <Link href="/enlaces">
-                  <a className="nav-link text-light fw-bold" id="enlaces">Enlaces</a>
+                  <a className="nav-link text-light fw-bold" id="enlaces">EmcoNautas</a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/enlaces">
+                  <a className="nav-link text-light fw-bold" id="enlaces">Cryptodemia</a>
                 </Link>
               </li>
             </ul>
